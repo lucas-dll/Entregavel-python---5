@@ -1,0 +1,23 @@
+RELATÓRIO DE ANÁLISE DE DADOS
+============================================================
+Total de registros: 8
+Registros válidos: 3
+Registros inválidos: 5
+Percentual de aprovação: 37.50%
+
+DADOS VÁLIDOS
+Registro 1: e-mail=ana@example.com | CPF=123.456.789-00 | telefone=(98) 98765-4321 | data=29/02/2024
+Registro 2: e-mail=bruno.silva@example.org | CPF=987.654.321-00 | telefone=(11) 3456-7890 | data=15/08/2025
+Registro 3: e-mail=carla+curso@example.com | CPF=111.222.333-44 | telefone=(21)99876-5432 | data=01/10/2026
+
+DADOS INVÁLIDOS
+Registro 4: e-mail=email-invalido | CPF=222.333.444-55 | telefone=(98) 98765-4321 | data=10/09/2026
+Motivos: E-mail fora do formato usuario@dominio.com
+Registro 5: e-mail=diego@example.com | CPF=12345678900 | telefone=(98) 98765-4321 | data=10/09/2026
+Motivos: CPF fora do formato 000.000.000-00
+Registro 6: e-mail=elisa@example.com | CPF=333.444.555-66 | telefone=98987654321 | data=10/09/2026
+Motivos: Telefone fora do formato (98) 98765-4321 ou (98) 3456-7890
+Registro 7: e-mail=fabio@example.com | CPF=444.555.666-77 | telefone=(98) 98765-4321 | data=31/02/2026
+Motivos: Data inexistente no calendário
+Registro 8: e-mail=gabriela@example.com | CPF=555.666.777-88 | telefone=(98) 98765-4321 | data=2026-10-08
+Motivos: Data fora do formato DD/MM/AAAA
